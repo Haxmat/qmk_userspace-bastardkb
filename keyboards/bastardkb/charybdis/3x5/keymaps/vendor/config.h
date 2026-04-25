@@ -16,6 +16,13 @@
  */
 #pragma once
 
+#undef TAPPING_TERM
+#define TAPPING_TERM 185
+#undef QUICK_TAP_TERM
+#define QUICK_TAP_TERM 200
+
+
+
 #ifdef VIA_ENABLE
 /* VIA configuration. */
 #    define DYNAMIC_KEYMAP_LAYER_COUNT 7
