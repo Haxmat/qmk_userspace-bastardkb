@@ -18,7 +18,6 @@
 
 #define TAPPING_TERM 185
 #define QUICK_TAP_TERM 200
-#define FLOW_TAP_TERM 80
 
 
 #ifdef VIA_ENABLE
